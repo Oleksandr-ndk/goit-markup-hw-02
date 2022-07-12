@@ -5,108 +5,115 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Web Studio</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
-		<header>
-			<nav>
-				<a href="index.html">WebStudio</a>
-				<ul>
-					<li>
-						<a href="">Студия</a>
+		<header class="header">
+			<nav class="header-navigation">
+				<a href="index.html" class="header-logo">WebStudio</a>
+				<ul class="header-list">
+					<li class="header-item">
+						<a href="index.html">Студия</a>
 					</li>
-					<li>
+					<li class="header-item">
 						<a href="">Портфолио</a>
 					</li>
-					<li>
+					<li class="header-item">
 						<a href="">Контакты</a>
 					</li>
 				</ul>
 			</nav>
-			<ul>
-				<li>
-					<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+			<ul class="heder-list">
+				<li class="header-item">
+					<a href="mailto:info@devstudio.com" class="header-tel">info@devstudio.com</a>
 				</li>
-				<li>
-					<a href="tel:+380961111111">+38 096 111 11 11</a>
+				<li class="header-item">
+					<a href="tel:+380961111111" class="header-mail">+38 096 111 11 11</a>
 				</li>
 			</ul>
 		</header>
 
 		<main>
-			<h1 hidden>Портфолио</h1>
-			<section>
-				<ul>
-					<li><button type="button">Все</button></li>
-					<li><button type="button">Веб-сайты</button></li>
-					<li><button type="button">Приложения</button></li>
-					<li><button type="button">Дизайн</button></li>
-					<li><button type="button">Маркетинг</button></li>
+			<h1 class="visually-hidden">Портфолио</h1>
+			<section class="examples">
+				<ul class="filter-list">
+					<li class="filter-item"><button type="button">Все</button></li>
+					<li class="filter-item"><button type="button">Веб-сайты</button></li>
+					<li class="filter-item"><button type="button">Приложения</button></li>
+					<li class="filter-item"><button type="button">Дизайн</button></li>
+					<li class="filter-item"><button type="button">Маркетинг</button></li>
 				</ul>
 
-				<ul>
-					<li>
+				<ul class="card-list">
+					<li class="card-item">
 						<img src="./images/portfolio/notebook.jpg" alt="notebook" width="370" height="294" />
-						<h2>Технокряк</h2>
-						<p>Веб-сайт</p>
+						<h2 class="card-title">Технокряк</h2>
+						<p class="card-desc">Веб-сайт</p>
 					</li>
-					<li>
+					<li class="card-item">
 						<img src="./images/portfolio/athletes.jpg" alt="athletes" width="370" height="294" />
-						<h2>Постер New Orlean vs Golden Star</h2>
-						<p>Дизайн</p>
+						<h2 class="card-title">Постер New Orlean vs Golden Star</h2>
+						<p class="card-desc">Дизайн</p>
 					</li>
-					<li>
+					<li class="card-item">
 						<img src="./images/portfolio/restaurant-logo.jpg" alt="restaurant-logo" width="370" height="294" />
-						<h2>Ресторан Seafood</h2>
-						<p>Приложение</p>
+						<h2 class="card-title">Ресторан Seafood</h2>
+						<p class="card-desc">Приложение</p>
 					</li>
-					<li>
+					<li class="card-item">
 						<img src="./images/portfolio/headphones.jpg" alt="headphones" width="370" height="294" />
-						<h2>Проект Prime</h2>
-						<p>Маркетинг</p>
+						<h2 class="card-title">Проект Prime</h2>
+						<p class="card-desc">Маркетинг</p>
 					</li>
-					<li>
+					<li class="card-item">
 						<img src="./images/portfolio/boxes.jpg" alt="boxes" width="370" height="294" />
-						<h2>Проект Boxes</h2>
-						<p>Приложение</p>
+						<h2 class="card-title">Проект Boxes</h2>
+						<p class="card-desc">Приложение</p>
 					</li>
-					<li>
+					<li class="card-item">
 						<img src="./images/portfolio/monitor.jpg" alt="monitor" width="370" height="294" />
-						<h2>Inspiration has no Borders</h2>
-						<p>Веб-сайт</p>
+						<h2 class="card-title">Inspiration has no Borders</h2>
+						<p class="card-desc">Веб-сайт</p>
 					</li>
-					<li>
+					<li class="card-item">
 						<img src="./images/portfolio/book.jpg" alt="book" width="370" height="294" />
-						<h2>Издание Limited Edition</h2>
-						<p>Дизайн</p>
+						<h2 class="card-title">Издание Limited Edition</h2>
+						<p class="card-desc">Дизайн</p>
 					</li>
-					<li>
+					<li class="card-item">
 						<img src="./images/portfolio/label.jpg" alt="label" width="370" height="294" />
-						<h2>Проект LAB</h2>
-						<p>Маркетинг</p>
+						<h2 class="card-title">Проект LAB</h2>
+						<p class="card-desc">Маркетинг</p>
 					</li>
-					<li>
+					<li class="card-item">
 						<img src="./images/portfolio/work-on-a-laptop.jpg" alt="work-on-a-laptop" width="370" height="294" />
-						<h2>Growing Business</h2>
-						<p>Приложение</p>
+						<h2 class="card-title">Growing Business</h2>
+						<p class="card-desc">Приложение</p>
 					</li>
 				</ul>
 			</section>
 		</main>
 
-		<footer>
-			<a href="index.html">WebStudio</a>
-			<address>
-				<ul>
-					<li>
-						<a href="https://goo.gl/maps/QpQaeRkAgS4pvvYN8" target="_blank" rel="noopener noreferrer nofollow">
+		<footer class="footer">
+			<a href="index.html" class="footer-logo">WebStudio</a>
+			<address class="footer-contacts">
+				<ul class="footer-list">
+					<li class="footer-item">
+						<a href="https://goo.gl/maps/QpQaeRkAgS4pvvYN8" class="footer-phis-adress" target="_blank" rel="noopener noreferrer nofollow">
 							г. Киев, пр-т Леси Украинки, 26
 						</a>
 					</li>
-					<li>
-						<a href="mailto:info@example.com">info@example.com</a>
+					<li class="footer-item">
+						<a href="mailto:info@example.com" class="footer-mail">info@example.com</a>
 					</li>
-					<li>
-						<a href="tel:+380991111111">+38 099 111 11 11</a>
+					<li class="footer-item">
+						<a href="tel:+380991111111" class="footer-tel">+38 099 111 11 11</a>
 					</li>
 				</ul>
 			</address>
