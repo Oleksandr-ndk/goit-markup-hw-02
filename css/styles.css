@@ -5,6 +5,9 @@
   --third-text-color: #ffffff;
   --primary-bg-color: #2f303a;
   --secondary-bg-color: #f5f4fa;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --header-logo-color: #000000;
+  --hover-button-color: #188ce8;
 }
 
 body {
@@ -51,7 +54,7 @@ body {
 }
 
 .header-logo {
-  color: #000000;
+  color: var(--header-logo-color);
 }
 
 .header-list {
@@ -118,11 +121,11 @@ body {
 }
 
 .footer-mail {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-contacts-color);
 }
 
 .footer-tel {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-contacts-color);
 }
 
 /* Studio page */
@@ -159,7 +162,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background: #188ce8;
+  background: var(--hover-button-color);
 }
 
 /* Features */
